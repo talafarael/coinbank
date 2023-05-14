@@ -1,12 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+
+
+// import './App.css';
+
+// import { Profile } from "./screens/profile";
+
+
 
 function App() {
   return (
+    <>
     <div className="App">
-     
+      <a href='shop'><h1>profile</h1></a>
+      <a href=''><h1>shop</h1></a>
     </div>
+   
+    </>
   );
+    
 }
 
 export default App;
