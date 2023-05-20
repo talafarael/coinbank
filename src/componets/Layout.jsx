@@ -4,9 +4,7 @@ import './Layout.css';
 const Layout=({children})=>{
    return (<div>
 
-    <ul  style={{display:'flex',
-   justifyContent:'space-around',
-  }}>
+    <ul  className="ulAll">
     <li><a href="profile">
         <h1>profile</h1></a></li>
       <li>
