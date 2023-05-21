@@ -10,21 +10,22 @@ import Main from "./screens/Main";
 import Shop from "./screens/Shop";
 import Profile from "./screens/Profile";
 import { Provider } from "react-redux";
-import{ createStore } from 'redux';
+import { createStore } from "redux";
 import rootReducer from "./reducers";
+import Login from "./screens/Login";
 
-
-const store =createStore(rootReducer)
+const store = createStore(rootReducer);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
-   <React.StrictMode>
-     <BrowserRouter>
-       <Routes>
-         <Route path="/profile" element={<Profile />} />
-         <Route path="/shop" element={<Shop />} />
-         <Route path="/main" element={<Main />} />
-       </Routes>
+    <React.StrictMode>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/main" element={<Main />} />
+        </Routes>
       </BrowserRouter>
     </React.StrictMode>
   </Provider>
