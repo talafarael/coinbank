@@ -4,7 +4,9 @@ import { connect } from 'react-redux';
 
 function Profile() {
   return (
-    <Layout>profile</Layout>
+<>
+
+</>
   )
 }
 
