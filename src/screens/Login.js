@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import './login.css'
 
 function Login() {
   const {
@@ -15,7 +16,10 @@ function Login() {
     reset();
   };
   return (
-    <div>
+    <div className="loginMain">
+      <div className="circle1"/> 
+      <div className="circle3"/> 
+      <div className="circle2"/>
       <form onSubmit={handleSubmit(onSubmit)}>
         <label>
           name:
