@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 
 
-// import './App.css';
+import './index.css';
 
 // import { Profile } from "./screens/profile";
 
