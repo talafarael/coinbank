@@ -83,3 +83,82 @@
         transform: translateX(0);
       }
  }
+ .mainbox{
+  width: 593px;
+height: 629px;
+top: 69px;
+left: 387px;
+border-radius: 25px;
+position: static;
+
+ }
+.logo{
+
+Top:69px;
+
+Left:596px;
+
+border: 6px;
+position:fixed;
+
+
+
+}
+ .mainTitle{
+  position: fixed;
+  width: 593px;
+  height: 93px;
+  top: 387px;
+  left: 387px;
+  
+  font-family: Montserrat;
+  font-size: 97px;
+  font-weight: 400;
+  line-height: 118px;
+  letter-spacing: 0em;
+  text-align: left;
+
+
+color: rgba(126, 126, 126, 1);
+
+
+
+ }
+.mainText{
+  position: fixed;
+  width: 575px;
+height: 43px;
+top: 531px;
+left: 396px;
+font-family: Montserrat;
+font-size: 42px;
+font-weight: 400;
+line-height: 51px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(126, 126, 126, 1);
+      
+} 
+
+
+
+.mainButton{
+  position:fixed;
+  font-family: Montserrat;
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+color: rgba(220, 220, 220, 1);
+
+  
+ text-align: center;
+
+ 
+  width: 381px;
+  height: 73px;
+  top: 625px;
+  left: 493px;
+  border-radius: 25px;
+  background: rgba(94, 94, 94, 1);
+ }
