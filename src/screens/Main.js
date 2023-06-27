@@ -9,7 +9,7 @@ function Main() {
   <div>
 
    <img className="logo" src={Logovector } alt="load"></img>
-     <div className="mainText">Заробляйте розумом</div>
+   <div className="mainText">Заробляйте розумом</div>
    <div className="mainTitle">BANK-COIN</div>
    <button className="mainButton" >Вперед</button>
    <div className="mainProfileText">Увійти в акаунт</div>
