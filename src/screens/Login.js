@@ -17,9 +17,9 @@ function Login() {
   };
   return (
     <div className="loginMain">
-      <div className="circle1"/> 
+      {/* <div className="circle1"/> 
       <div className="circle3"/> 
-      <div className="circle2"/>
+      <div className="circle2"/> */}
       <form onSubmit={handleSubmit(onSubmit)}>
         <label>
           name:
