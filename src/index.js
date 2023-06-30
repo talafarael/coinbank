@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import { Routes, Route, Link } from "react-router-dom";
 import App from "./App";
-
+import  Layout  from "./componets/Layout"
 import reportWebVitals from "./reportWebVitals";
 import Main from "./screens/Main";
 import Shop from "./screens/Shop";
@@ -19,6 +19,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
     <React.StrictMode>
+      <Main/>
       <BrowserRouter>
         <Routes>
           <Route path="/login" element={<Login />} />
