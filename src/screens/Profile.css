@@ -1,6 +1,74 @@
-.circle{
-   height: 404px;
+.circle8{
+   position: fixed;
    width: 404px;
-   position: absolute;
-   background: linear-gradient(94.89deg, #6C6C6C 17.61%, #3D3D3D 67.21%);
+height: 404px;
+top: -52px;
+border: 0.5px;
+background: linear-gradient(123.98deg, #414141 27.34%, #7E7E7E 77.96%),
+linear-gradient(135deg, #7E7E7E 40.62%, #414141 67.19%);
+border: 0.5px solid;
+
+border-image-source: linear-gradient(135deg, #7E7E7E 40.62%, #414141 67.19%);
+border-radius: 50%;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+box-shadow: 6px 6px 30px 0px rgba(126, 126, 126, 1);
+
+}
+.circle9{
+border-radius: 50%;
+position: fixed;
+width: 312px;
+height: 312px;
+top: -124px;
+left: 795px;
+border: 0.5px;
+background: linear-gradient(200.57deg, #858585 7.22%, #BFBBBB 81.07%),
+linear-gradient(28.11deg, #BBB7B7 24.25%, #9A9898 72.49%);
+border: 0.5px solid;
+
+border-image-source: linear-gradient(28.11deg, #BBB7B7 24.25%, #9A9898 72.49%);
+box-shadow: -6px -6px 38px 0px rgba(220, 220, 220, 1);
+
+box-shadow: 7px 6px 46px 0px rgba(220, 220, 220, 1);
+
+
+}
+.circle10{
+   position: fixed;
+   border-radius: 50%;
+   width: 382px;
+   height: 382px;
+   top: 596px;
+   left: 174px;
+   border: 0.5px;
+   background: linear-gradient(225deg, #B6B6B6 33.65%, #DCDCDC 66.98%),
+linear-gradient(202.7deg, #DCDCDC 34.74%, #B6B6B6 55.45%);
+border: 0.5px solid;
+
+border-image-source: linear-gradient(225deg, #B6B6B6 33.65%, #DCDCDC 66.98%);
+box-shadow: -6px -6px 38px 0px rgba(182, 182, 182, 1);
+
+box-shadow: 7px 6px 46px 0px rgba(182, 182, 182, 1);
+
+
+}
+.circle11{
+position: fixed;
+border-radius: 50%;
+width: 404px;
+height: 404px;
+top: 336px;
+left: 942px;
+border: 0.5px;
+background: linear-gradient(135deg, #6C6C6C 0%, #000000 84.38%),
+linear-gradient(94.89deg, #6C6C6C -17.04%, #3D3D3D 77.97%);
+
+border: 0.5px solid;
+
+border-image-source: linear-gradient(135deg, #6C6C6C 0%, #000000 84.38%);
+box-shadow: -6px -6px 56px 0px rgba(92, 92, 92, 1);
+
+
+
 }
