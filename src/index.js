@@ -19,9 +19,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
     <React.StrictMode>
-      <Main/>
+   
       <BrowserRouter>
+      
         <Routes>
+        
           <Route path="/login" element={<Login />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/shop" element={<Shop />} />
